@@ -79,8 +79,7 @@ export const labels = {
 
 export const stats = [
   { value: "4", label: "end-to-end AI/ML systems built" },
-  { value: "93%", label: "BERT report-verification accuracy" },
-  { value: "3", label: "deploy targets: Cloud Run, HF Spaces, Render" },
+  { value: "5", label: "deploy targets: GCP Cloud Run, Hugging Face, AWS EC2, Docker Compose, Render" },
   { value: "100%", label: "AI drafts gated by human approval" },
 ];
 

@@ -53,7 +53,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <dl className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-white/10 bg-white/10 md:grid-cols-4">
+        <dl className="mt-16 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-white/10 bg-white/10 md:grid-cols-3">
           {stats.map((s) => (
             <div key={s.label} className="bg-ink-900 p-5">
               <dt className="font-mono text-3xl font-semibold text-white">{s.value}</dt>
